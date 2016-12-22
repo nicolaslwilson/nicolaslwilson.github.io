@@ -1,0 +1,243 @@
+/* We need to use the border-box rule for box-sizing to prevent our grid from breaking when we add padding and borders. */
+.pure-g > div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.home-menu {
+    text-align: center;
+
+}
+
+.pure-menu.pure-menu-fixed {
+    background-color: white;
+    /* I need a higher z-index here because of the scroll-over effect. */
+    z-index: 4;
+}
+
+.home-menu {
+    height: 55px;
+    border-bottom: 1px solid #9facbd;
+}
+
+.home-menu .pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.home-menu .pure-menu-selected a {
+    color: white;
+}
+
+.home-menu a {
+    color: #9facbd;
+    display: block;
+    font-weight: 500;
+    height: 55px;
+    line-height: 55px;
+    margin: 0 2px;
+    padding: 0 8px;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: #3c4859;
+    border-bottom: 1px solid #3c4859
+}
+.home-menu li a:active {
+  color: #0FACF3;
+  border-bottom: 1px solid #0FACF3;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
+/* Setting up the main container for the content */
+.main {
+  margin: 80px 0 0 0;
+}
+.content {
+    margin: 2em auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+
+}
+
+/* This styles the fold up/fold down icons at the top of each section */
+.fa {
+  font-size: 1.5em;
+  float: right;
+}
+
+/* Styling the introductory text + image */
+#home {
+  border: 1px solid #9facbd;
+}
+
+
+#home h2 {
+  color: white;
+  background-color: #0FACF3;
+  margin: 0;
+  padding: 1em;
+}
+
+#home .intro-text,
+#home .portrait {
+  margin: 1.4em 0 0 0;
+}
+
+#home .intro-text h3 {
+  margin-top: 0;
+  padding: 0 1.5em 1.5em 1.5em;
+  font-size: 1.5em;
+  line-height: 1.3em;
+
+}
+
+.portrait {
+  padding: 0 2em 2em 2em;
+}
+
+/* Styling the employment experience section */
+
+#jobs h3 {
+  color: white;
+  background-color: #0FACF3;
+  padding: 1em;
+}
+
+.job {
+  margin: 1em;
+  border: 1px solid #9facbd;
+}
+
+.job h4 {
+  color: white;
+  background-color: #9facbd;
+  padding: .3em 1em;
+  margin: 0;
+
+}
+.job-date {
+  float: right;
+  padding: 1em 1em 0em 1em;
+}
+.job-title {
+  color: #0FACF3;
+  padding: 1em 1em 0em 1em;
+}
+.job-description {
+  padding: 1em;
+}
+.job-description ul {
+  margin: 0;
+}
+
+/* Styling for the skills portion of my resume */
+.skills-subsection {
+  border: 1px solid #9facbd;
+  margin: 0 0 1em 0;
+}
+
+.skills-subsection h3 {
+  color: white;
+  background-color: #0FACF3;
+  margin: 0;
+  padding: 1em;
+
+}
+.skills-container {
+  margin: 0.5em 0 0 0;
+}
+.skill {
+  padding: 0.5em;
+}
+.skill .icon {
+  margin: auto;
+}
+.description {
+  text-align: center;
+  display: inline-block;
+}
+
+.skill-table {
+    margin: 0 0.5em 2em;
+    padding: 0 0 3em;
+}
+
+.skill-table ul {
+    border: 1px solid #ddd;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.skill-table ul li {
+    padding: 0.8em 0;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+/*Styling the Creative subsection of my page */
+#creative h3 {
+  color: white;
+  background-color: #0FACF3;
+  padding: 1em;
+}
+
+.artwork {
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid #e7e7e7;
+  text-align: center;
+}
+
+.artwork h4 {
+  margin: 0;
+  padding: .3em 1em;
+}
+
+/*This is the colorscheme for my page */
+ body {
+    color: #50514F;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: #0FACF3;
+}
+
+.main a {
+  background-color: #0FACF3;
+  color: white;
+  text-decoration: none;
+  padding: 0 .1em
+}
+
+.main a:visited {
+  background: #000000;
+  padding:
+  color: white;
+  text-decoration: none;
+}
