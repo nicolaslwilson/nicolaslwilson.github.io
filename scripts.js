@@ -1,13 +1,13 @@
 function toggleSiblings() {
   $(this).nextAll().slideToggle();
   var icon = $(this).find(".fa")
-  if (icon.hasClass("fa-minus-square-o")) {
-    icon.removeClass("fa-minus-square-o");
-    icon.addClass("fa-plus-square-o");
+  if (icon.hasClass("fa-minus")) {
+    icon.removeClass("fa-minus");
+    icon.addClass("fa-plus");
   }
-  else if (icon.hasClass("fa-plus-square-o")) {
-    icon.removeClass("fa-plus-square-o");
-    icon.addClass("fa-minus-square-o");
+  else if (icon.hasClass("fa-plus")) {
+    icon.removeClass("fa-plus");
+    icon.addClass("fa-minus");
   }
 }
 
