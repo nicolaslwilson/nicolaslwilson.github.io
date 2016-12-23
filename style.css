@@ -52,10 +52,6 @@
     color: #3c4859;
     border-bottom: 1px solid #3c4859
 }
-.home-menu li a:active {
-  color: #0FACF3;
-  border-bottom: 1px solid #0FACF3;
-}
 
 a.anchor {
     display: block;
